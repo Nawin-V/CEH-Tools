@@ -7,7 +7,7 @@ The main purpose of a port scanner is to determine which ports are open on a tar
 ### How It Works
 
 1. **Port Range Specification:**
-   The user or the script itself specifies a range of ports to be scanned. Commonly, this range includes well-known ports (0 to 1023) and registered ports (1024 to 49151), which are associated with standard services. It can also include higher ports (50 to 85) for scanning less common or custom services.
+   The user or the script itself specifies a range of ports to be scanned. Commonly, this range includes well-known ports (0 to 1023) and registered ports (1024 to 49151), which are associated with standard services. It can also include higher ports (49152 to 65535) for scanning less common or custom services.
 
 2. **Target Selection:**
    The target host or IP address is chosen to scan for open ports. The target can be a single host, a range of IP addresses, or an entire network subnet.
