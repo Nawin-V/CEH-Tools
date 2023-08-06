@@ -12,7 +12,7 @@ else:
     print("Syntax: python3 scanner.py <target>")
     sys.exit()
 
-# Add a banner
+# Add a good banner
 print("-" * 50)
 print("Scanning target " + target)
 print("Time started: " + str(datetime.now()))
