@@ -4,7 +4,7 @@ import sys
 import socket
 from datetime import datetime
 import threading
-hi
+
 def scan_port(target, port):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
