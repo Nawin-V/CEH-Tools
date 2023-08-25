@@ -2,7 +2,7 @@
 
 import sys
 import socket
-from datetime1 import datetime
+from datetime import datetime
 import threading
 
 def scan_port(target, port):
